@@ -22,8 +22,8 @@ module.exports = () => {
     plugins: [
       // Webpack plugin to generate HTML file
       new HtmlWebpackPlugin({
-        template: '../index.html',
-        title: 'Jate'
+        template: './index.html',
+        title: 'JATE'
       }),
 
       // Injects custom service worker
@@ -36,11 +36,11 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false, 
         inject: true,
-        name: 'Jate-VM',
-        short_name: 'Jate',
+        name: 'JATE-VM',
+        short_name: 'JATE',
         description: 'Text Editor!',
         start_url: './',
-        publicPath: './',
+        publicPath: '../',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
