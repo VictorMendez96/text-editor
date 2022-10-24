@@ -23,8 +23,7 @@
     "workbox-webpack-plugin": "^6.5.4"
   },
   "engines": {
-    "node": "6.11.1",
-    "npm": ">=3"
+    "node": "6.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
