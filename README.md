@@ -68,4 +68,4 @@ THEN I should have proper build scripts for a webpack application
 
 [GitHub](https://github.com/VictorMendez96/text-editor)
 
-[Deployment Link]()
+[Deployment Link](https://protected-escarpment-55784.herokuapp.com/)
