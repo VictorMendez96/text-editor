@@ -22,7 +22,7 @@ module.exports = () => {
     plugins: [
       // Webpack plugin to generate HTML file
       new HtmlWebpackPlugin({
-        template: './index.html',
+        template: '../index.html',
         title: 'Jate'
       }),
 
